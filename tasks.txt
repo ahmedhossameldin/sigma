@@ -1,21 +1,19 @@
-about first section before the portfolio and the services > 
-images animation like http://gelbachdesigns.com/ > 
+about first section before the portfolio and the services > Done 
+check our profile btn transperant > Done
+text panel color white background blue > Done
+gallary page remove text from the baner >  Done
+sub title [new idea spacing color opicity] > Done
+add the description after the images in the gallary page > Done
+10 photos in the main slider > Done
+add text > Done
+
 add images small and big , image added by date from new to older > 
-add text > 
-gallary page remove text from the baner > 
-sub title [new idea spacing color opicity] 
-text panel color white background blue > 
-add the description after the images in the gallary page > 
-check our profile btn transperant > 
-10 photos in the main slider > 
 
 create email ahmed@sig... , hr@sig ??
 info@sigma >  contcat us data ??
-
-
 logos continous rolling ??
 gallary add next previous btns ?? 
-
+images animation like http://gelbachdesigns.com/ ??
 the folder naming confition as the folder from ahmed
 
 

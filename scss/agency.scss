@@ -76,7 +76,9 @@ h6 {
 }
 
 .btn-xl {
-    @include button-variant(white, $theme-primary, $theme-primary);
+    // @include button-variant(white, $theme-primary, $theme-primary);
+    background-color: rgba(61, 91, 155, 0.5);
+    color:#fff;
     @include heading-font;
     font-weight: 700;
     border-radius: 3px;
@@ -174,13 +176,19 @@ h6 {
 
 header {
     &.Hospitality {
-        background-image: url('../img/header-hospitality.jpg');
+        background-image: url('../img/hospitality/header.jpg');
     }
     &.residential {
-        background-image: url('../img/header-residential.jpg');
+        background-image: url('../img/residential/header.jpg');
     }
     &.set-desgin {
-        background-image: url('../img/set-desgin/header-set-desgin.jpg');
+        background-image: url('../img/set-desgin/header.jpg');
+    }
+    &.mall-retail{
+        background-image: url('../img/mall-retail/header.jpg');
+    }
+    &.office-space{
+        background-image: url('../img/office-space/header.jpg');
     }
     &.careers {
         background-image: url('../img/set-desgin/header-set-desgin.jpg');
@@ -204,6 +212,7 @@ header {
         }
         .intro-heading {
             @include heading-font;
+            text-shadow: 1px 4px 1px black;
             font-weight: 700;
             font-size: 50px;
             line-height: 50px;
@@ -267,6 +276,7 @@ header {
         }
         .intro-heading {
             @include heading-font;
+            text-shadow: 1px 4px 1px black;
             font-weight: 700;
             font-size: 50px;
             line-height: 50px;
@@ -276,7 +286,7 @@ header {
             position: relative;
             width: 100%;
             float: left;
-            height: 800px;
+            height: 700px;
             img {
                 width: 100%;
                 height: auto;
@@ -304,7 +314,7 @@ header {
     width: 100%;
     position: relative;
     text-align: center;
-    bottom: 80px;
+    bottom: 170px;
     z-index: 2;
     height: 50px;
 }
@@ -367,6 +377,7 @@ header {
                     top: 30%;
                     .intro-heading {
                         font-size: 28px;
+                        text-shadow: 1px 4px 1px black;
                     }
                     .btn-xl {
                         font-size: 16px;
@@ -402,6 +413,7 @@ header {
                     top: 20%;
                     .intro-heading {
                         font-size: 20px;
+                        text-shadow: 1px 4px 1px black;
                     }
                     .btn-xl {
                         font-size: 15px;
@@ -591,24 +603,24 @@ section#contact {
      ::-webkit-input-placeholder {
         @include heading-font;
         font-weight: 700;
-        color: $gray-lighter;
+        color: #aaa;
     }
      :-moz-placeholder {
         /* Firefox 18- */
         @include heading-font;
         font-weight: 700;
-        color: $gray-lighter;
+        color: #aaa;
     }
      ::-moz-placeholder {
         /* Firefox 19+ */
         @include heading-font;
         font-weight: 700;
-        color: $gray-lighter;
+        color: #aaa;
     }
      :-ms-input-placeholder {
         @include heading-font;
         font-weight: 700;
-        color: $gray-lighter;
+        color: #aaa;
     }
     .text-danger {
         color: $theme-danger;
@@ -794,6 +806,11 @@ body {
 }
 
 .gallary {
+    .sub-title{
+        color:$theme-primary;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
     a:hover {
         text-decoration: none!important;
     }
@@ -809,6 +826,15 @@ body {
         display: inline-block;
         width: 100%;
         overflow: hidden;
+        background-color: $theme-primary;
+        h5{
+             color:#fff;
+        } 
+        p{
+            color:#fff;
+            font-weight: 300;
+            
+        }
     }
     .image {
         padding: 0;

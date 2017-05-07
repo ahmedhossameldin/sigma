@@ -99,47 +99,14 @@ h6 {
     background-color: white; }
 
 .btn-xl {
-  color: white;
-  background-color: #3d5b9b;
-  border-color: #3d5b9b;
+  background-color: rgba(61, 91, 155, 0.5);
+  color: #fff;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px; }
-  .btn-xl:focus, .btn-xl.focus {
-    color: white;
-    background-color: #2f4676;
-    border-color: #192540; }
-  .btn-xl:hover {
-    color: white;
-    background-color: #2f4676;
-    border-color: #2c416f; }
-  .btn-xl:active, .btn-xl.active,
-  .open > .btn-xl.dropdown-toggle {
-    color: white;
-    background-color: #2f4676;
-    border-color: #2c416f; }
-    .btn-xl:active:hover, .btn-xl:active:focus, .btn-xl:active.focus, .btn-xl.active:hover, .btn-xl.active:focus, .btn-xl.active.focus,
-    .open > .btn-xl.dropdown-toggle:hover,
-    .open > .btn-xl.dropdown-toggle:focus,
-    .open > .btn-xl.dropdown-toggle.focus {
-      color: white;
-      background-color: #25365d;
-      border-color: #192540; }
-  .btn-xl:active, .btn-xl.active,
-  .open > .btn-xl.dropdown-toggle {
-    background-image: none; }
-  .btn-xl.disabled:hover, .btn-xl.disabled:focus, .btn-xl.disabled.focus, .btn-xl[disabled]:hover, .btn-xl[disabled]:focus, .btn-xl[disabled].focus,
-  fieldset[disabled] .btn-xl:hover,
-  fieldset[disabled] .btn-xl:focus,
-  fieldset[disabled] .btn-xl.focus {
-    background-color: #3d5b9b;
-    border-color: #3d5b9b; }
-  .btn-xl .badge {
-    color: #3d5b9b;
-    background-color: white; }
 
 .navbar-custom {
   background-color: rgba(0, 0, 0, 0.2);
@@ -214,11 +181,15 @@ header {
   text-align: center;
   color: white; }
   header.Hospitality {
-    background-image: url("../img/header-hospitality.jpg"); }
+    background-image: url("../img/hospitality/header.jpg"); }
   header.residential {
-    background-image: url("../img/header-residential.jpg"); }
+    background-image: url("../img/residential/header.jpg"); }
   header.set-desgin {
-    background-image: url("../img/set-desgin/header-set-desgin.jpg"); }
+    background-image: url("../img/set-desgin/header.jpg"); }
+  header.mall-retail {
+    background-image: url("../img/mall-retail/header.jpg"); }
+  header.office-space {
+    background-image: url("../img/office-space/header.jpg"); }
   header.careers {
     background-image: url("../img/set-desgin/header-set-desgin.jpg"); }
   header .intro-text {
@@ -233,6 +204,7 @@ header {
     header .intro-text .intro-heading {
       font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
+      text-shadow: 1px 4px 1px black;
       font-weight: 700;
       font-size: 50px;
       line-height: 50px;
@@ -281,6 +253,7 @@ header {
   .slider_wrapper #slides .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    text-shadow: 1px 4px 1px black;
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
@@ -289,7 +262,7 @@ header {
     position: relative;
     width: 100%;
     float: left;
-    height: 800px; }
+    height: 700px; }
     .slider_wrapper #slides .slide img {
       width: 100%;
       height: auto; }
@@ -312,7 +285,7 @@ header {
   width: 100%;
   position: relative;
   text-align: center;
-  bottom: 80px;
+  bottom: 170px;
   z-index: 2;
   height: 50px; }
 
@@ -356,7 +329,8 @@ header {
     .slider_wrapper #slides .slide .caption {
       top: 30%; }
       .slider_wrapper #slides .slide .caption .intro-heading {
-        font-size: 28px; }
+        font-size: 28px;
+        text-shadow: 1px 4px 1px black; }
       .slider_wrapper #slides .slide .caption .btn-xl {
         font-size: 16px;
         padding: 16px 26px; }
@@ -372,7 +346,8 @@ header {
     .slider_wrapper #slides .slide .caption {
       top: 20%; }
       .slider_wrapper #slides .slide .caption .intro-heading {
-        font-size: 20px; }
+        font-size: 20px;
+        text-shadow: 1px 4px 1px black; }
       .slider_wrapper #slides .slide .caption .btn-xl {
         font-size: 15px;
         padding: 12px 22px; }
@@ -509,24 +484,24 @@ section#contact {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #eeeeee; }
+    color: #aaa; }
   section#contact :-moz-placeholder {
     /* Firefox 18- */
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #eeeeee; }
+    color: #aaa; }
   section#contact ::-moz-placeholder {
     /* Firefox 19+ */
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #eeeeee; }
+    color: #aaa; }
   section#contact :-ms-input-placeholder {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #eeeeee; }
+    color: #aaa; }
   section#contact .text-danger {
     color: #e74c3c; }
 
@@ -674,6 +649,11 @@ body {
   animation-duration: 10s;
   animation-direction: alternate; }
 
+.gallary .sub-title {
+  color: #3d5b9b;
+  font-weight: 100;
+  letter-spacing: 1px; }
+
 .gallary a:hover {
   text-decoration: none !important; }
 
@@ -688,7 +668,13 @@ body {
 .gallary .item {
   display: inline-block;
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #3d5b9b; }
+  .gallary .item h5 {
+    color: #fff; }
+  .gallary .item p {
+    color: #fff;
+    font-weight: 300; }
 
 .gallary .image {
   padding: 0;
